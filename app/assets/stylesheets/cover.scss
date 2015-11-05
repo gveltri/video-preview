@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-	color: #fff;
+	color: #333;
 }
 
 /* Custom default button */
@@ -81,7 +81,7 @@ body {
 .masthead-nav > li > a {
 	padding-right: 0;
         padding-left: 0;
-	font-size: 16px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #fff; /* IE8 proofing */
 	color: rgba(255,255,255,.75);
@@ -178,6 +178,14 @@ img.cover-logo {
     filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
 }
 
+
+img.header-logo {
+    max-width: 50%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
+    filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
+}
+
+
 span.coming-soon-text {
     font-size: 3em;
     letter-spacing: 3px;
@@ -192,4 +200,16 @@ span.coming-soon-text {
 
 p.lead {
     letter-spacing: 1px;
+}
+
+div.about-section {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    background-color: rgba(255,255,255,0.95);
+    color: #000;
+    text-shadow: none;
+    -webkit-box-shadow: 0px 0px 45px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 45px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 45px -6px rgba(0,0,0,0.75);
 }
