@@ -37,6 +37,7 @@ body {
 	background-size: cover;
 	color: #fff;
         text-align: center;
+	
 	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
@@ -118,10 +119,9 @@ body {
 
 .cover {
 	padding: 0 20px;
-
-
 	
 }
+
 .cover .btn-lg {
 	padding: 10px 20px;
 	font-weight: bold;
@@ -202,13 +202,19 @@ img.cover-logo {
 img.header-logo {
     max-width: 50%;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
-    filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
+	filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
+	
+}
+
+p.lead {
+	font-weight: 500;
 }
 
 
 span.coming-soon-text {
     font-size: 3em;
-    letter-spacing: 3px;
+	letter-spacing: 3px;
+	
 }
 
 @media (max-height: 600px) {
