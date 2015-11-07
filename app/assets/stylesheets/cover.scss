@@ -119,20 +119,6 @@ body {
 .cover {
 	padding: 0 20px;
 
-	-moz-animation-name: lift;
-	-moz-animation-iteration-count: 1;
-	-moz-animation-timing-function: ease-in;
-	-moz-animation-duration: 0.3s;
-
-	-webkit-animation-name: lift;
-	-webkit-animation-iteration-count: 1;
-	-webkit-animation-timing-function: ease-in;
-	-webkit-animation-duration: 0.3s;
-
-	animation-name: lift;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 0.5s;
 
 	
 }
@@ -192,10 +178,24 @@ body {
  */
 
 img.cover-logo {
-    max-width: 100%;
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
+	max-width: 100%;
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
 	filter: drop-shadow(5px 5px 5px rgba(33,33,33,0.5));
-	
+	-moz-animation-name: lift;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 0.3s;
+
+	-webkit-animation-name: lift;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 0.3s;
+
+	animation-name: lift;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+
 }
 
 
