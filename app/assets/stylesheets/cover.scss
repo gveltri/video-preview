@@ -155,6 +155,9 @@ body {
 	/* Start the vertical centering */
 	.site-wrapper-inner {
 		vertical-align: middle;
+		padding-bottom: 170px;
+
+		
 	}
 	/* Handle the widths */
 	.masthead,
@@ -266,5 +269,28 @@ div.about-section {
 	100% {
 		transform: translateY(0px);
 		opacity: 1;
+	}
+}
+
+
+/* social buttons */
+
+div.social-buttons {
+
+	position:fixed;
+	top: 5px;
+	left: 5px;
+	with: 100%;
+	z-index: 2;
+
+	img {
+		margin: 0 5px;
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+		-webkit-transition: all .2s ease;
+	}
+	img:hover {
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
 	}
 }
